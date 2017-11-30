@@ -15,7 +15,7 @@ set_success_message <- function(message) {
 #' @rdname message_passing
 #' @export
 get_success_message <- function() {
-  message <- "Good job!"
+  message <- praise::praise()
   tmp <- ""
   if ("success_message" %in% names(message_env)) {
     tmp <- get("success_message", envir = message_env)

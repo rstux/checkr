@@ -13,5 +13,5 @@ RoxygenNote: 6.0.1
 Suggests: learnr, testthat, dplyr,
     knitr, stringr, compare, sourcetools,
     rmarkdown, ggplot2, lazyeval
-Imports: jsonlite, googlesheets
+Imports: jsonlite, googlesheets, praise
 VignetteBuilder: knitr
